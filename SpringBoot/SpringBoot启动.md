@@ -15,11 +15,11 @@
 - 访问网址：https://start.spring.io/，选择Spring Web dependence
 
 
-![image-20200402181150189](./SpringBoot启动.assets/image-20200402181150189.png) 
+![image-20200402181150189](./SpringBoot%E5%90%AF%E5%8A%A8.assets/image-20200402181150189.png) 
 
 - 点击generate后自动下载项目zip
 
- ![image-20200402181826158](SpringBoot启动.assets/image-20200402181826158.png)
+ ![image-20200402181826158](SpringBoot%E5%90%AF%E5%8A%A8.assets/image-20200402181826158.png)
 
 - 在IDEA导入
 
