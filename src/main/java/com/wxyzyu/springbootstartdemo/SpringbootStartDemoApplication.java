@@ -10,17 +10,17 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class SpringbootStartDemoApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(SpringbootStartDemoApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(SpringbootStartDemoApplication.class, args);
+    }
 
-	//hello world :)
-	@GetMapping("/hello")
-	public String hello(@RequestParam(value = "name", defaultValue = "World") String name) {
-		if ("exception".equals(name)){
-			throw new RuntimeException();
-		}
+    //hello world :)
+    @GetMapping("/hello")
+    public String hello(@RequestParam(value = "name", defaultValue = "World") String name) {
+        if ("exception".equals(name)){
+            throw new RuntimeException();
+        }
 
-		return String.format("Hello %s!", name);
-	}
+        return String.format("Hello %s!", name);
+    }
 }
